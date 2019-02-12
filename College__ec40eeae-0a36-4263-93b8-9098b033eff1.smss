@@ -1,0 +1,12 @@
+Base Properties
+ENGINE	ec40eeae-0a36-4263-93b8-9098b033eff1
+ENGINE_ALIAS	College
+ENGINE_TYPE	prerna.engine.impl.rdbms.RDBMSNativeEngine
+RDBMS_INSIGHTS	db/@ENGINE@/insights_database
+OWL	db/@ENGINE@/College_OWL.OWL
+PIXEL_UPDATE	true
+RDBMS_TYPE	H2_DB
+DRIVER	org.h2.Driver
+USERNAME	sa
+PASSWORD	
+CONNECTION_URL	jdbc:h2:nio:@BaseFolder@/db/@ENGINE@/database;query_timeout=180000;early_filter=true;query_cache_size=24;cache_size=32768

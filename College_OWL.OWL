@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns="http://semoss.org/ontologies/Relation/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdfs:Class rdf:about="http://semoss.org/ontologies/Concept"/>
+<rdf:Property rdf:about="http://semoss.org/ontologies/Relation"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_UNIQUE_ROW_ID/COLLEGE">
+	<rdfs:subClassOf rdf:resource="http://semoss.org/ontologies/Concept"/>
+	<rdfs:Class rdf:resource="TYPE:LONG"/>
+	<Conceptual rdf:resource="http://semoss.org/ontologies/Concept/COLLEGE"/>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/ACT_CUM_75/COLLEGE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_UNIQUE_ROW_ID/COLLEGE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/ACT_CUM_75/COLLEGE">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/ACT_CUM_75/COLLEGE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Adm_Rate/COLLEGE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_UNIQUE_ROW_ID/COLLEGE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Adm_Rate/COLLEGE">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Adm_Rate/COLLEGE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Avg_Cost_Academic_Year/COLLEGE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_UNIQUE_ROW_ID/COLLEGE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Avg_Cost_Academic_Year/COLLEGE">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Avg_Cost_Academic_Year/COLLEGE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Avg_Cost_Program_Year/COLLEGE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_UNIQUE_ROW_ID/COLLEGE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Avg_Cost_Program_Year/COLLEGE">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Avg_Cost_Program_Year/COLLEGE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Avg_Fac_Sal/COLLEGE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_UNIQUE_ROW_ID/COLLEGE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Avg_Fac_Sal/COLLEGE">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Avg_Fac_Sal/COLLEGE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/City/COLLEGE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_UNIQUE_ROW_ID/COLLEGE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/City/COLLEGE">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/City/COLLEGE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/City_State/COLLEGE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_UNIQUE_ROW_ID/COLLEGE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/City_State/COLLEGE">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/City_State/COLLEGE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Compl_Repay_1yr_Rate/COLLEGE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_UNIQUE_ROW_ID/COLLEGE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Compl_Repay_1yr_Rate/COLLEGE">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Compl_Repay_1yr_Rate/COLLEGE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Compl_Repay_7yr_Rate/COLLEGE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_UNIQUE_ROW_ID/COLLEGE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Compl_Repay_7yr_Rate/COLLEGE">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Compl_Repay_7yr_Rate/COLLEGE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/CompletionRate_150_4/COLLEGE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_UNIQUE_ROW_ID/COLLEGE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/CompletionRate_150_4/COLLEGE">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/CompletionRate_150_4/COLLEGE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/CompletionRate_150_L4/COLLEGE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_UNIQUE_ROW_ID/COLLEGE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/CompletionRate_150_L4/COLLEGE">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/CompletionRate_150_L4/COLLEGE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Control/COLLEGE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_UNIQUE_ROW_ID/COLLEGE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Control/COLLEGE">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Control/COLLEGE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Highest_Deg/COLLEGE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_UNIQUE_ROW_ID/COLLEGE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Highest_Deg/COLLEGE">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Highest_Deg/COLLEGE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/In_state_Tuition/COLLEGE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_UNIQUE_ROW_ID/COLLEGE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/In_state_Tuition/COLLEGE">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/In_state_Tuition/COLLEGE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Institution_Name/COLLEGE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_UNIQUE_ROW_ID/COLLEGE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Institution_Name/COLLEGE">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Institution_Name/COLLEGE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Lat/COLLEGE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_UNIQUE_ROW_ID/COLLEGE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Lat/COLLEGE">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Lat/COLLEGE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Level_of_institution/COLLEGE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_UNIQUE_ROW_ID/COLLEGE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Level_of_institution/COLLEGE">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Level_of_institution/COLLEGE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Locale/COLLEGE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_UNIQUE_ROW_ID/COLLEGE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Locale/COLLEGE">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Locale/COLLEGE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Long_1/COLLEGE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_UNIQUE_ROW_ID/COLLEGE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Long_1/COLLEGE">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Long_1/COLLEGE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Low_Inc_Aid/COLLEGE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_UNIQUE_ROW_ID/COLLEGE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Low_Inc_Aid/COLLEGE">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Low_Inc_Aid/COLLEGE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Main_Campus/COLLEGE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_UNIQUE_ROW_ID/COLLEGE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Main_Campus/COLLEGE">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Main_Campus/COLLEGE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Noncom_Repay_1yr_Rate/COLLEGE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_UNIQUE_ROW_ID/COLLEGE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Noncom_Repay_1yr_Rate/COLLEGE">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Noncom_Repay_1yr_Rate/COLLEGE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Noncom_Repay_7yr_Rate/COLLEGE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_UNIQUE_ROW_ID/COLLEGE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Noncom_Repay_7yr_Rate/COLLEGE">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Noncom_Repay_7yr_Rate/COLLEGE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Out_of_state_Tuition/COLLEGE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_UNIQUE_ROW_ID/COLLEGE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Out_of_state_Tuition/COLLEGE">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Out_of_state_Tuition/COLLEGE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Parent_Ed_HS/COLLEGE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_UNIQUE_ROW_ID/COLLEGE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Parent_Ed_HS/COLLEGE">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Parent_Ed_HS/COLLEGE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Parent_Ed_MS/COLLEGE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_UNIQUE_ROW_ID/COLLEGE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Parent_Ed_MS/COLLEGE">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Parent_Ed_MS/COLLEGE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Parent_Ed_PS/COLLEGE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_UNIQUE_ROW_ID/COLLEGE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Parent_Ed_PS/COLLEGE">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Parent_Ed_PS/COLLEGE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_2OrMore/COLLEGE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_UNIQUE_ROW_ID/COLLEGE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_2OrMore/COLLEGE">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_2OrMore/COLLEGE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_AIAN/COLLEGE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_UNIQUE_ROW_ID/COLLEGE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_AIAN/COLLEGE">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_AIAN/COLLEGE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_Asian/COLLEGE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_UNIQUE_ROW_ID/COLLEGE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_Asian/COLLEGE">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_Asian/COLLEGE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_Black/COLLEGE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_UNIQUE_ROW_ID/COLLEGE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_Black/COLLEGE">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_Black/COLLEGE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_Female/COLLEGE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_UNIQUE_ROW_ID/COLLEGE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_Female/COLLEGE">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_Female/COLLEGE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_First_Gen/COLLEGE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_UNIQUE_ROW_ID/COLLEGE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_First_Gen/COLLEGE">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_First_Gen/COLLEGE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_Full_time_Fac/COLLEGE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_UNIQUE_ROW_ID/COLLEGE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_Full_time_Fac/COLLEGE">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_Full_time_Fac/COLLEGE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_Hisp/COLLEGE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_UNIQUE_ROW_ID/COLLEGE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_Hisp/COLLEGE">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_Hisp/COLLEGE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_Male/COLLEGE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_UNIQUE_ROW_ID/COLLEGE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_Male/COLLEGE">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_Male/COLLEGE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_NHPI/COLLEGE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_UNIQUE_ROW_ID/COLLEGE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_NHPI/COLLEGE">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_NHPI/COLLEGE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_NRA/COLLEGE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_UNIQUE_ROW_ID/COLLEGE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_NRA/COLLEGE">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_NRA/COLLEGE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_Part_time/COLLEGE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_UNIQUE_ROW_ID/COLLEGE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_Part_time/COLLEGE">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_Part_time/COLLEGE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_UNKN/COLLEGE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_UNIQUE_ROW_ID/COLLEGE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_UNKN/COLLEGE">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_UNKN/COLLEGE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_Veterans/COLLEGE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_UNIQUE_ROW_ID/COLLEGE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_Veterans/COLLEGE">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_Veterans/COLLEGE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_White/COLLEGE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_UNIQUE_ROW_ID/COLLEGE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Percent_White/COLLEGE">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Percent_White/COLLEGE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Predominant_Ugrad_Deg/COLLEGE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_UNIQUE_ROW_ID/COLLEGE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Predominant_Ugrad_Deg/COLLEGE">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Predominant_Ugrad_Deg/COLLEGE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Religious_Affiliation/COLLEGE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_UNIQUE_ROW_ID/COLLEGE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Religious_Affiliation/COLLEGE">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Religious_Affiliation/COLLEGE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/RetentionRate_FT4/COLLEGE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_UNIQUE_ROW_ID/COLLEGE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/RetentionRate_FT4/COLLEGE">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/RetentionRate_FT4/COLLEGE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/RetentionRate_FTL4/COLLEGE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_UNIQUE_ROW_ID/COLLEGE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/RetentionRate_FTL4/COLLEGE">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/RetentionRate_FTL4/COLLEGE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/RetentionRate_PT4/COLLEGE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_UNIQUE_ROW_ID/COLLEGE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/RetentionRate_PT4/COLLEGE">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/RetentionRate_PT4/COLLEGE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/RetentionRate_PTL4/COLLEGE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_UNIQUE_ROW_ID/COLLEGE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/RetentionRate_PTL4/COLLEGE">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/RetentionRate_PTL4/COLLEGE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/SAT_M_75/COLLEGE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_UNIQUE_ROW_ID/COLLEGE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/SAT_M_75/COLLEGE">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/SAT_M_75/COLLEGE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/SAT_R_75/COLLEGE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_UNIQUE_ROW_ID/COLLEGE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/SAT_R_75/COLLEGE">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/SAT_R_75/COLLEGE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/SAT_W_75/COLLEGE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_UNIQUE_ROW_ID/COLLEGE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/SAT_W_75/COLLEGE">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/SAT_W_75/COLLEGE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/State_1/COLLEGE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_UNIQUE_ROW_ID/COLLEGE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/State_1/COLLEGE">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/State_1/COLLEGE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/TIV_Approval_Date/COLLEGE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_UNIQUE_ROW_ID/COLLEGE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/TIV_Approval_Date/COLLEGE">
+			<rdfs:Class rdf:resource="TYPE:DATE"/>
+			<AdtlDataType xmlns="http://semoss.org/ontologies/Relation/Contains/" rdf:resource="ADTLTYPE:M((REPLACEMENT_TOKEN))d((REPLACEMENT_TOKEN))yyyy"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/TIV_Approval_Date/COLLEGE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Top3Majors/COLLEGE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_UNIQUE_ROW_ID/COLLEGE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Top3Majors/COLLEGE">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Top3Majors/COLLEGE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/URL/COLLEGE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_UNIQUE_ROW_ID/COLLEGE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/URL/COLLEGE">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/URL/COLLEGE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Undergrad_Enrollment/COLLEGE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_UNIQUE_ROW_ID/COLLEGE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Undergrad_Enrollment/COLLEGE">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Undergrad_Enrollment/COLLEGE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Zip/COLLEGE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE_UNIQUE_ROW_ID/COLLEGE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Zip/COLLEGE">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Zip/COLLEGE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COLLEGE/COLLEGE">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2662</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/ACT_CUM_75/COLLEGE">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">23</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/Adm_Rate/COLLEGE">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">1439</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/Avg_Cost_Academic_Year/COLLEGE">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2558</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/Avg_Cost_Program_Year/COLLEGE">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">1</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/Avg_Fac_Sal/COLLEGE">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2212</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/City/COLLEGE">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">1494</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/City_State/COLLEGE">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">1721</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/Compl_Repay_1yr_Rate/COLLEGE">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2145</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/Compl_Repay_7yr_Rate/COLLEGE">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">1887</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/CompletionRate_150_4/COLLEGE">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">1508</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/CompletionRate_150_L4/COLLEGE">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">747</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/Control/COLLEGE">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">3</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/Highest_Deg/COLLEGE">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">4</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/In_state_Tuition/COLLEGE">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2237</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/Institution_Name/COLLEGE">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2662</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/Lat/COLLEGE">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2657</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/Level_of_institution/COLLEGE">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/Locale/COLLEGE">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">12</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/Long_1/COLLEGE">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2657</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/Low_Inc_Aid/COLLEGE">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2402</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/Main_Campus/COLLEGE">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/Noncom_Repay_1yr_Rate/COLLEGE">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2202</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/Noncom_Repay_7yr_Rate/COLLEGE">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2022</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/Out_of_state_Tuition/COLLEGE">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2276</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/Parent_Ed_HS/COLLEGE">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">1901</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/Parent_Ed_MS/COLLEGE">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">1880</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/Parent_Ed_PS/COLLEGE">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2323</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/Percent_2OrMore/COLLEGE">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">736</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/Percent_AIAN/COLLEGE">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">339</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/Percent_Asian/COLLEGE">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">942</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/Percent_Black/COLLEGE">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">1699</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/Percent_Female/COLLEGE">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2368</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/Percent_First_Gen/COLLEGE">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2323</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/Percent_Full_time_Fac/COLLEGE">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">1844</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/Percent_Hisp/COLLEGE">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">1647</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/Percent_Male/COLLEGE">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2051</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/Percent_NHPI/COLLEGE">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">178</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/Percent_NRA/COLLEGE">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">861</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/Percent_Part_time/COLLEGE">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2057</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/Percent_UNKN/COLLEGE">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">956</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/Percent_Veterans/COLLEGE">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">967</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/Percent_White/COLLEGE">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2227</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/Predominant_Ugrad_Deg/COLLEGE">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">4</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/Religious_Affiliation/COLLEGE">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">58</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/RetentionRate_FT4/COLLEGE">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">1382</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/RetentionRate_FTL4/COLLEGE">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">724</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/RetentionRate_PT4/COLLEGE">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">340</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/RetentionRate_PTL4/COLLEGE">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">643</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SAT_M_75/COLLEGE">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">99</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SAT_R_75/COLLEGE">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">102</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SAT_W_75/COLLEGE">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">79</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/State_1/COLLEGE">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">54</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/TIV_Approval_Date/COLLEGE">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">908</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/Top3Majors/COLLEGE">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2654</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/URL/COLLEGE">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2588</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/Undergrad_Enrollment/COLLEGE">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2267</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/Zip/COLLEGE">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2601</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/TimeStamp">
+	<TIME xmlns="ENGINE:">2019:01:08 05:44:29</TIME>
+</rdf:Description>
+
+</rdf:RDF>
